@@ -6192,6 +6192,10 @@ button.close {
   font-family: serif;
   line-height: 1;
 }
+.batten-conteyner-niz{
+  position: fixed;
+  bottom: 0; 
+}
 .carousel-control .icon-prev:before {
   content: '\2039';
 }
