@@ -24,81 +24,93 @@
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="./index.html">Главная</a></li>
 								<li class="active"><a href="./edit.html">Редактирование</a></li>
-								<li class="active"><a href="./profile.html">Профиль</a></li>
+								<li class="dropdown"><a href="./profile.html" class=".btn-group .dropdown-menu" data-toggle="dropdown">Профиль<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Страница</a></li>
+										<li><a href="#">Редактирование</a></li>
+									</ul>
+								</li>
 							</ul>
 							<form class="navbar-form navbar-left" role="search">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Поиск">
-								</div>
-								<button type="submit" class="btn btn-default">Отправить</button>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Поиск">
+									</div>
+									<button type="submit" class="btn btn-default">Отправить</button>
 							</form>	
-						</div>
+					</div>
 					</div>
 				</nav>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-2">
-				<ul class="list-group">
-					  <li class="list-group-item">Товары</li>
-					  <li class="list-group-item">Очередь</li>
-					  <li class="list-group-item">Прайскурант</li>
-					  <li class="list-group-item">обратная связь</li>
-					  <li class="list-group-item">Книга жалоб и предложений</li>
-				</ul>
-			</div>
-				<div class="col-md-6">
-					<img src="./2.jpg" alt="Responsive image" height="150" width="200" class="img-circle">
-					<img src="./3.jpg" alt="Responsive image" height="150" width="200" class="img-circle">
-					<p>
-						<img src="./4.jpg" alt="Responsive image" class="img-thumbnail">
-					</p>
-				</div>
-			<div class="col-md-4">
-				<div class="panel panel-default">
-  					<div class="panel-body">
-    				Панель авторизации
-    					<form role="form">
-							 <div class="form-group">
-							    	<label for="exampleInputEmail1">Email</label>
-							   		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-							 </div>
-							 <div class="form-group">
-							    	<label for="exampleInputPassword1">Пароль</label>
-							    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-							 </div>
-							 <div class="form-group">
-							    	<label for="exampleInputFile">Фото</label>
-							    	<input type="file" id="exampleInputFile">
-							 </div>
-							 <div class="checkbox">
-							    	<label>
-							          	<input type="checkbox"> Запоминать
-							        </label>
-							 </div>
-							 	<button type="submit" class="btn btn-default">Отправить</button>
-						</form>
-					</div>
+		<h1>Добро пожаловать</h1>
+		<br>
+	<div class="row">
+		<div class="col-md-2">
+			<ul class="list-group">
+				<li class="list-group-item">Товары</li>
+				<li class="list-group-item">Очередь</li>
+				<li class="list-group-item">Прайскурант</li>
+				<li class="list-group-item">обратная связь</li>
+				<li class="list-group-item">Книга жалоб и предложений</li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<img src="./2.jpg" alt="Responsive image" height="136.031" width="262.500" class="img-circle">
+			<p>
+				<img src="./4.jpg" alt="Responsive image" class="img-thumbnail">
+			</p>	
+		</div>
+		<div class="col-md-3">
+			<img src="./3.jpg" alt="Responsive image" height="136.031" width="262.500" class="img-circle">
+			<p>
+				<img src="./4.jpg" alt="Responsive image" class="img-thumbnail">
+			</p>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h4>Вход</h4>
+					<form role="form">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Пароль</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> Запоминать
+							</label>
+						</div>
+						<button type="submit" class="btn btn-default">Отправить</button>
+					</form>
 				</div>
 			</div>
 		</div>
-		<div class="row batten-conteyner-niz">
-			<div class="col-md-12">
-				<button type="button" class="btn btn-default">Default</button>
+		<div class="col-md-2"></div>
+		<div class="col-md-6">
+			<img src="./1.jpg" alt="Responsive image" height="272.047" width="555" class="img-circle">
+		</div>
+		<div class="col-md-4"></div>
+	</div>
+	<div class="row batten-conteyner-niz">
+		<div class="col-md-12">
+			<button type="button" href="https://www.instagram.com/?hl=ru" class="btn btn-default">instagramm</button>
 
-				<button type="button" class="btn btn-primary">Primary</button>
+			<button type="button" href="https://www.vk.com" class="btn btn-primary">VK</button>
 
-				<button type="button" class="btn btn-success">Success</button>
+			<button type="button" href="https://www.periscope.tv" class="btn btn-success">Periscope</button>
 
-				<button type="button" class="btn btn-info">Info</button>
+			<button type="button" href="https://www.facebook.com" class="btn btn-info">Facebook</button>
 
-				<button type="button" class="btn btn-warning">Warning</button>
+			<button type="button" href="https://www.ok.ru" class="btn btn-warning">OK</button>
 
-				<button type="button" class="btn btn-danger">Danger</button>
+			<button type="button" Href="https://www.youtube.com" class="btn btn-danger">YouTube</button>
 
-				<button type="button" class="btn btn-link">Ссылка</button>
-			</div>
 		</div>
 	</div>
+</div>
 </body>
 </html>
